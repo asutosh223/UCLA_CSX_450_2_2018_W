@@ -16,3 +16,4 @@ housing_df$TotRmsAbvGrd <- as.factor(housing_df$TotRmsAbvGrd)
 housing_df$Fireplaces <- as.factor(housing_df$Fireplaces)
 housing_df$GarageCars <- as.factor(housing_df$GarageCars)
 housing_df$MoSold <- as.factor(housing_df$MoSold)
+housing_df$has_pool <- housing_df$PoolArea !=0
